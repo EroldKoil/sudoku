@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .desktop-menu {
+            display: block;
+        }
+
+        #mob-menu {
+            display: none;
+        }
+
+        @media (max-width: 640px){
+
+            .desktop-menu {
+                display: none;
+            }
+
+            #mob-menu {
+                display: block;
+            }
+
+            div {
+                width: 30%;
+            }
+
+        }
+    </style>
+</head>
+<body>
+
+    <div>
+        <div class="desktop-menu">hello</div>
+        <div id="mob-menu">world</div>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,19 @@
+div {
+    width: 50%;
+}
+
+@media (max-width: 640px){
+
+    .desktop-menu {
+        display: none;
+    }
+
+    #mob-menu {
+        display: ;
+    }
+
+    div {
+        width: 30%;
+    }
+
+}
